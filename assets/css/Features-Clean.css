@@ -1,0 +1,83 @@
+.features-clean {
+  color: white;
+  background: linear-gradient(-20deg, #081925 0%, #05020d 100%);
+  padding-bottom: 30px;
+  text-shadow: 3px 3px 8px black;
+  letter-spacing: 1.5px;
+}
+
+@media (max-width:767px) {
+  .features-clean {
+    padding-bottom: 10px;
+  }
+}
+
+.features-clean p {
+  color: #d3d7d9;
+}
+
+.features-clean h2, .features-clean h3 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  /*padding-top: 40px;*/
+  color: inherit;
+  letter-spacing: 3.5px;
+}
+
+@media (max-width:767px) {
+  .features-clean h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.features-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 60px;
+}
+
+@media (max-width:767px) {
+  .features-clean .intro {
+    margin-bottom: 40px;
+  }
+}
+
+.features-clean .item {
+  min-height: 100px;
+  padding-left: 80px;
+  margin-bottom: 40px;
+}
+
+@media (max-width:767px) {
+  .features-clean .item {
+    min-height: 0;
+  }
+}
+
+.features-clean .item .name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: inherit;
+}
+
+.features-clean .item .description {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.features-clean h3 {
+  color: rgb(90,123,102);
+}
+
+.features-clean img.icon {
+  width: 55px;
+  color: #1485ee;
+  float: left;
+  margin-left: -65px;
+  opacity: 0.7;
+}
+

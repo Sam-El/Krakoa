@@ -1,0 +1,83 @@
+.x-team .introduction a:hover {
+  text-decoration: none;
+  color: rgb(82,2,2);
+  cursor: pointer;
+}
+
+.x-team .introduction a {
+  color: rgb(171,0,0);
+  /*text-shadow: 2px 2px 200px black;*/
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.x-team .col-md-6.introduction .h2, h2 {
+  color: black;
+  text-shadow: 3px 3px 50px lightgray;
+  text-align: center;
+}
+
+.x-team p {
+  color: rgb(17,17,17);
+  font-size: 18px;
+  padding: 5px 20px 0px 20px;
+  text-shadow: 3px 3px 50px rgb(190,190,190);
+}
+
+.x-team .team-clean {
+  background-color: whitesmoke;
+}
+
+.x-team .item img {
+  width: 100px;
+  max-width: 160px;
+  border: 2px solid rgba(0,0,0,0.44);
+  box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.22), -3px -3px 40px 0px rgba(0,0,0,0.22);
+}
+
+.x-team .item .name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: inherit;
+  font-family: 'Quicksand';
+  text-transform: uppercase;
+}
+
+.x-team .item .title {
+  text-transform: none;
+  font-weight: bold;
+  color: #888888;
+  letter-spacing: 2px;
+  padding: 5px 0px;
+  font-size: 14px;
+}
+
+.x-team .col-md-6.col-lg-2.item, .x-team .col-lg-3.item {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.x-team .people a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.x-team .people a:hover {
+  color: dimgray;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.x-team .introduction h2 a {
+  color: black;
+}
+
+hr.x-hr {
+  height: 5px;
+  background-color: rgb(231,231,231);
+  border: none;
+}
+

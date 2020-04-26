@@ -1,0 +1,185 @@
+.team-clean {
+  color: #313437;
+  background-color: #fff;
+}
+
+.team-clean p {
+  color: #7d8285;
+}
+
+.team-clean h2 {
+  font-weight: bold;
+  /*margin-bottom: 40px;*/
+  padding-top: 20px;
+  color: inherit;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 150px rgb(40,40,40);
+  color: rgb(69,33,33);
+}
+
+@media (max-width:767px) {
+  .team-clean h2 {
+    /*margin-bottom: 25px;*/
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.team-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.team-clean .intro p {
+  margin-bottom: 20px;
+  color: rgb(200,200,200);
+}
+
+.team-clean .people {
+  /*padding-bottom: 25px;*/
+}
+
+.team-clean .item {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.team-clean .item .name {
+  font-weight: bold;
+  margin-top: 28px;
+  margin-bottom: 8px;
+  color: inherit;
+  font-family: 'Quicksand';
+  text-shadow: 2px 2px 40px rgb(232,232,232);
+}
+
+.team-clean .item .description {
+  font-size: 17px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.team-clean .item img {
+  width: 160px;
+  max-width: 160px;
+  border: 2px solid rgba(0,0,0,0.44);
+  box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.22), -3px -3px 40px 0px rgba(0,0,0,0.22);
+}
+
+.team-clean .social {
+  font-size: 18px;
+  color: #a2a8ae;
+}
+
+.team-clean .social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.team-clean .social a:hover {
+  opacity: 1;
+}
+
+hr.council_seperator {
+  background-color: rgba(218,218,218,0.84);
+  height: 3px;
+  width: 70%;
+  border: none;
+}
+
+.council_intro {
+  background: linear-gradient(270deg, #072511, #100b34);
+}
+
+.col-md-6.photo {
+  background-image: url("../../assets/img/Other/quiet_council_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.col-md-6.introduction {
+  color: whitesmoke;
+  text-shadow: 2px 2px 10px black;
+  padding-top: 30px;
+  /*padding-bottom: 30px;*/
+  /*padding-left: 40px !important;*/
+  /*padding-right: 0 !important;*/
+}
+
+@media (max-width: 576px) {
+  .row {
+    /*padding: 0px 20px;*/
+  }
+}
+
+.council_intro h2 {
+  padding-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+  .col-md-6.col-lg-5.introduction {
+    padding-top: 10px;
+  }
+}
+
+.council_intro p {
+  color: rgb(227,227,227);
+}
+
+.team-clean.great-captains {
+  background-color: rgb(0,0,11);
+}
+
+.great-captains .item .name {
+  color: whitsemoke;
+}
+
+.team-clean.great-captains .name {
+  color: rgb(234,234,234);
+}
+
+.team-clean.great-captains .description {
+  color: rgb(147,147,147);
+}
+
+.team-clean.great-captains h2.text-center {
+  color: rgb(224,224,224);
+  text-shadow: 2px 2px 90px red;
+}
+
+.col-md-6.col-lg-6.introduction.krakoan {
+  background-color: whitesmoke;
+  color: black;
+  text-shadow: none;
+}
+
+.col-md-6.col-lg-6.introduction.krakoan p {
+  color: black;
+  font-size: 18px;
+  padding-left: 30px;
+}
+
+.team-clean a {
+  color: black;
+  text-decoration: none;
+}
+
+.team-clean a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+.team-clean.great-captains a {
+  color: whitesmoke;
+  text-shadow: none;
+}
+
+.team-clean.great-captains a:hover {
+  color: lightgray;
+}
+
